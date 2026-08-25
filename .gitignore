@@ -1,0 +1,29 @@
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+
+# VidMuse user sessions and private task state
+.vidmuse/
+.vidmuse-work/
+vidmuse.project.json
+capabilities/raw/
+
+# User media and generated output
+inputs/
+outputs/
+renders/
+work/
+
+# Local tooling
+node_modules/
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+*.db
+*.sqlite*
+.cache/
+.pytest_cache/
+.coverage

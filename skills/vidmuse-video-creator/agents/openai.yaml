@@ -1,0 +1,7 @@
+interface:
+  display_name: "VidMuse Video Creator"
+  short_description: "Create VidMuse images and videos from first login to delivery"
+  brand_color: "#7C3AED"
+  default_prompt: "Use $vidmuse-video-creator to create a video with VidMuse and deliver the finished file."
+policy:
+  allow_implicit_invocation: true

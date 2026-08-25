@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "task_name": "",
+  "created_at": "",
+  "intent": "",
+  "source": {
+    "srt": "",
+    "inputs": [],
+    "input_hashes": {}
+  },
+  "artifacts": {
+    "shot_plan": "",
+    "visual_lock": "",
+    "storyboard_manifest": ""
+  },
+  "model": "",
+  "mode": "",
+  "parameters": {},
+  "planning": {
+    "catalog_checked_at": "",
+    "candidate_models": [],
+    "chosen_model": "",
+    "assumptions": []
+  },
+  "budget": {
+    "estimated_credits": null,
+    "approved_credits": null,
+    "authorization": "not_set"
+  },
+  "remote": {
+    "thread_id": "",
+    "task_ids": [],
+    "status": "not_submitted"
+  },
+  "outputs": [],
+  "shots": [],
+  "attempts": [],
+  "delivery_status": "planned",
+  "receipt": {
+    "downloaded": false,
+    "non_zero_size": false,
+    "basic_media_info_checked": false,
+    "obvious_damage": null,
+    "human_review": "pending"
+  },
+  "notes": []
+}

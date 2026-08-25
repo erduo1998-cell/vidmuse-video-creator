@@ -1,0 +1,10 @@
+{
+  "model_name": "minimax/hailuo-h3",
+  "generation_type": "reference_to_video",
+  "prompt": "A test-only camera move",
+  "elements": [
+    {
+      "reference_image_urls": ["./TEST_ONLY_REFERENCE.png"]
+    }
+  ]
+}
