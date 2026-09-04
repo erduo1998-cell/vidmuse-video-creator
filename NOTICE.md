@@ -22,7 +22,11 @@ It does not grant rights to:
 - third-party model names or trademarks;
 - user-supplied media processed through the Skill;
 - `docs/images/wechat-qrcode.jpg` as a reusable brand or identity asset;
+- `docs/images/vidmuse-official-logo.svg`, adapted from the official VidMuse website wordmark, as a reusable brand asset;
+- `docs/images/vidmuse-product-ads-official.jpg`, sourced from the official VidMuse product-ads homepage visual, as reusable promotional media;
 - `docs/demos/vidmuse-h3-4k-demo.mp4` or derivatives as stock media.
+
+The VidMuse logo and product-ad visual are included only to identify, describe, and thank the project's collaboration and sponsorship partner. Their copyrights, trademarks, and brand rights remain with the VidMuse Team / SandAI. Source: <https://vidmuse.ai/> (retrieved 2026-09-04).
 
 The included demo is an Erduo-owned generated workflow example provided for repository demonstration. It may be viewed, downloaded for evaluation, and referenced when discussing this project; reuse in unrelated commercial media requires separate permission from Erduo.
 

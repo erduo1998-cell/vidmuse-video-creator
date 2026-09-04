@@ -6,6 +6,8 @@
 
 [English](README.en.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
+<a href="https://vidmuse.ai/"><img src="docs/images/vidmuse-official-logo.svg" alt="VidMuse" width="240" /></a>
+
 [![Skill](https://img.shields.io/badge/Agent-Skill-7C3AED)](skills/vidmuse-video-creator/SKILL.md)
 [![Validate](https://github.com/erduo1998-cell/vidmuse-video-creator/actions/workflows/validate.yml/badge.svg)](https://github.com/erduo1998-cell/vidmuse-video-creator/actions/workflows/validate.yml)
 [![VidMuse](https://img.shields.io/badge/Powered%20by-VidMuse-06B6D4)](https://vidmuse.ai/)
@@ -16,6 +18,14 @@
 [注册 / 登录 VidMuse](https://vidmuse.ai/login) · [官方 CLI](https://vidmuse.ai/en/cli) · [查看当前套餐](https://vidmuse.ai/en/pricing)
 
 </div>
+
+## 合作伙伴：VidMuse
+
+[![VidMuse AI 产品广告平台主视觉](docs/images/vidmuse-product-ads-official.jpg)](https://vidmuse.ai/)
+
+特别感谢 **[VidMuse](https://vidmuse.ai/)** 对本开源 Skill 的合作与赞助支持。VidMuse 提供平台注册、官方 CLI、云端模型与生成服务；本仓库负责把这些能力整理成 Agent 可以直接操作、可恢复、可交付的工作流。
+
+> 上方 Logo 与平台主视觉来自 VidMuse 官方网站，版权与商标归 VidMuse Team / SandAI；仅用于展示合作关系与介绍赞助平台，不属于本仓库 MIT 开源素材。
 
 ![VidMuse Video Creator workflow](docs/images/vidmuse-creator-flow.png)
 
@@ -127,9 +137,7 @@ Agent 会完成：
 
 详细规则见 [Skill 入口](skills/vidmuse-video-creator/SKILL.md) 与 [首次运行指南](skills/vidmuse-video-creator/references/first-run.md)。
 
-## 合作与赞助
-
-本项目由耳总独立开发与维护，获得 VidMuse 的合作与赞助支持。VidMuse 提供平台注册、授权、模型与生成服务；本项目提供面向 Agent 的工作流、首次运行标准、任务恢复和 SRT B-roll 方法。
+## 品牌与服务边界
 
 VidMuse 商业服务、官方 CLI、品牌和商标由 VidMuse Team / SandAI 维护。本仓库不是 VidMuse 官方 CLI 源码仓库，也不冒充 VidMuse 官方支持渠道。
 

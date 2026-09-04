@@ -6,9 +6,19 @@
 
 [简体中文](README.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
+<a href="https://vidmuse.ai/"><img src="docs/images/vidmuse-official-logo.svg" alt="VidMuse" width="240" /></a>
+
 [註冊 / 登入 VidMuse](https://vidmuse.ai/login) · [官方 CLI](https://vidmuse.ai/zh-TW/cli)
 
 </div>
+
+## 合作夥伴與贊助商：VidMuse
+
+[![VidMuse AI 產品廣告平台主視覺](docs/images/vidmuse-product-ads-official.jpg)](https://vidmuse.ai/)
+
+特別感謝 **[VidMuse](https://vidmuse.ai/)** 對本開源 Skill 的合作與贊助支持。VidMuse 提供平台帳號、官方 CLI、雲端模型與生成服務；本倉庫將這些能力整理成 Agent 可直接操作、可恢復並交付成品的工作流程。
+
+> 上方 Logo 與平台主視覺來自 VidMuse 官方網站，著作權與商標歸 VidMuse Team / SandAI；僅用於展示合作關係與介紹贊助平台，不屬於本倉庫的 MIT 開源素材。
 
 ![VidMuse Video Creator workflow](docs/images/vidmuse-creator-flow.png)
 
@@ -36,7 +46,9 @@ npx skills add erduo1998-cell/vidmuse-video-creator \
 
 [下載 4096×3072 的 4K 交付示例](docs/demos/vidmuse-h3-4k-demo.mp4) · [靜態預覽](docs/images/vidmuse-h3-demo-poster.jpg) · [媒體說明](docs/demos/README.md)
 
-本專案由耳總開發維護，獲 VidMuse 合作與贊助支持。VidMuse 商業服務、官方 CLI、名稱與商標由 VidMuse Team / SandAI 維護；本倉庫不包含官方服務或 CLI 原始碼，也不是官方客服管道。
+## 品牌與服務邊界
+
+VidMuse 商業服務、官方 CLI、名稱與商標由 VidMuse Team / SandAI 維護；本倉庫不包含官方服務或 CLI 原始碼，也不是官方客服管道。
 
 以下為耳總個人商務聯絡入口，並非 VidMuse 官方客服：
 

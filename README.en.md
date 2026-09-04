@@ -6,11 +6,21 @@
 
 [简体中文](README.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
+<a href="https://vidmuse.ai/"><img src="docs/images/vidmuse-official-logo.svg" alt="VidMuse" width="240" /></a>
+
 **Built and maintained by Erduo · Supported through collaboration and sponsorship from VidMuse**
 
 [Sign up / Sign in](https://vidmuse.ai/login) · [Official CLI](https://vidmuse.ai/en/cli) · [Current plans](https://vidmuse.ai/en/pricing)
 
 </div>
+
+## Partner and sponsor: VidMuse
+
+[![VidMuse AI product-ad platform visual](docs/images/vidmuse-product-ads-official.jpg)](https://vidmuse.ai/)
+
+Special thanks to **[VidMuse](https://vidmuse.ai/)** for collaborating on and sponsoring this open-source Skill. VidMuse provides account access, the official CLI, cloud models, and generation services; this repository turns those capabilities into a workflow that agents can operate, resume, and carry through to delivery.
+
+> The Logo and platform visual above come from the official VidMuse website. Their copyrights and trademarks remain with the VidMuse Team / SandAI and are not covered by this repository's MIT License.
 
 ![VidMuse Video Creator workflow](docs/images/vidmuse-creator-flow.png)
 
@@ -65,9 +75,9 @@ Readiness requires a working CLI, valid login, successful plan query, and a non-
 - Existing task IDs are polled instead of blindly resubmitted.
 - Upload only media you have the right to use.
 
-## Collaboration
+## Brand and service boundary
 
-This independent open-source integration is developed and maintained by Erduo with collaboration and sponsorship support from VidMuse. The VidMuse commercial service, official CLI, names, and trademarks are maintained by the VidMuse Team / SandAI. This repository does not contain the VidMuse service or CLI source and is not an official support channel.
+The VidMuse commercial service, official CLI, names, and trademarks are maintained by the VidMuse Team / SandAI. This repository does not contain the VidMuse service or CLI source and is not an official support channel.
 
 ## Contact
 
