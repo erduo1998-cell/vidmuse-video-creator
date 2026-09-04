@@ -7,6 +7,7 @@
 [English](README.en.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
 [![Skill](https://img.shields.io/badge/Agent-Skill-7C3AED)](skills/vidmuse-video-creator/SKILL.md)
+[![Validate](https://github.com/erduo1998-cell/vidmuse-video-creator/actions/workflows/validate.yml/badge.svg)](https://github.com/erduo1998-cell/vidmuse-video-creator/actions/workflows/validate.yml)
 [![VidMuse](https://img.shields.io/badge/Powered%20by-VidMuse-06B6D4)](https://vidmuse.ai/)
 [![License](https://img.shields.io/badge/License-MIT-22C55E)](LICENSE)
 

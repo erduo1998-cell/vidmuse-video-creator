@@ -103,8 +103,17 @@ def check_readme_links() -> None:
 
 
 def check_text_privacy() -> None:
-    for path in ROOT.rglob("*"):
-        if not path.is_file() or ".git" in path.parts:
+    tracked = subprocess.run(
+        ["git", "ls-files", "-z"],
+        cwd=ROOT,
+        capture_output=True,
+        check=True,
+    ).stdout.split(b"\0")
+    for relative in tracked:
+        if not relative:
+            continue
+        path = ROOT / os.fsdecode(relative)
+        if not path.is_file():
             continue
         if path.resolve() == pathlib.Path(__file__).resolve():
             continue
