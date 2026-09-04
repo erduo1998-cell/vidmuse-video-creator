@@ -38,6 +38,7 @@ REQUIRED = [
     ROOT / "docs" / "images" / "vidmuse-h3-demo.gif",
     ROOT / "docs" / "images" / "wechat-qrcode.jpg",
     ROOT / "docs" / "demos" / "vidmuse-h3-storyboard.png",
+    ROOT / "docs" / "demos" / "vidmuse-h3-storyboard-annotated.png",
     ROOT / "docs" / "demos" / "vidmuse-h3-4k-demo.mp4",
 ]
 
@@ -97,9 +98,12 @@ def check_readme_links() -> None:
         sponsor_asset = "docs/images/vidmuse-official-logo.svg"
         if sponsor_asset not in text:
             fail(f"missing sponsor asset in {readme.name}: {sponsor_asset}")
-        storyboard_asset = "docs/demos/vidmuse-h3-storyboard.png"
-        if storyboard_asset not in text:
-            fail(f"missing real storyboard in {readme.name}: {storyboard_asset}")
+        for storyboard_asset in (
+            "docs/demos/vidmuse-h3-storyboard-annotated.png",
+            "docs/demos/vidmuse-h3-storyboard.png",
+        ):
+            if storyboard_asset not in text:
+                fail(f"missing real storyboard in {readme.name}: {storyboard_asset}")
         targets = re.findall(r"!?(?:\[[^]]*\])\(([^)]+)\)", text)
         targets.extend(re.findall(r'<img\s+[^>]*src="([^"]+)"', text))
         for target in targets:
@@ -139,6 +143,7 @@ def check_media() -> None:
         ROOT / "docs" / "images" / "vidmuse-official-logo.svg": 100_000,
         ROOT / "docs" / "images" / "vidmuse-h3-demo.gif": 8_000_000,
         ROOT / "docs" / "demos" / "vidmuse-h3-storyboard.png": 3_000_000,
+        ROOT / "docs" / "demos" / "vidmuse-h3-storyboard-annotated.png": 8_000_000,
         ROOT / "docs" / "demos" / "vidmuse-h3-4k-demo.mp4": 50_000_000,
     }
     for path, limit in limits.items():
@@ -153,6 +158,8 @@ def check_media() -> None:
         fail("animated preview is not GIF")
     if (ROOT / "docs/demos/vidmuse-h3-storyboard.png").read_bytes()[:8] != b"\x89PNG\r\n\x1a\n":
         fail("storyboard is not PNG")
+    if (ROOT / "docs/demos/vidmuse-h3-storyboard-annotated.png").read_bytes()[:8] != b"\x89PNG\r\n\x1a\n":
+        fail("annotated storyboard is not PNG")
     if b"ftyp" not in (ROOT / "docs/demos/vidmuse-h3-4k-demo.mp4").read_bytes()[:32]:
         fail("demo is not an MP4")
 

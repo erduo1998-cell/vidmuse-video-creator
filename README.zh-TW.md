@@ -40,13 +40,13 @@ npx skills add erduo1998-cell/vidmuse-video-creator \
 
 ## 真實生成參考案例：故事板 → 成片
 
-這不是事後補畫的示意圖。以下四格圖就是生成這段影片時，實際提交給 VidMuse + MiniMax H3 的參考故事板。
+真實生成時同時使用了兩部分：四格參考圖，以及同一次提交中寫明時間、畫面、運動和聲音的提示詞。下面將兩者合成一張完整執行故事板，所有標註都來自當時的真實生成紀錄，不是事後補寫。
 
-**1. 實際使用的靜態故事板**
+**1. 實際生成執行故事板**
 
-![實際提交給 VidMuse 與 MiniMax H3 的四格故事板](docs/demos/vidmuse-h3-storyboard.png)
+![包含時間、畫面、運動和聲音標註的真實生成故事板](docs/demos/vidmuse-h3-storyboard-annotated.png)
 
-四格依序表達：任務完成 → 點擊「歸檔」並移交資料 → AI 接住完整紀錄 → 串起人的錯誤、AI 的錯誤、工具報錯與後來修正。
+[查看當時原樣提交的四格參考圖](docs/demos/vidmuse-h3-storyboard.png)
 
 **2. 實際生成結果**
 

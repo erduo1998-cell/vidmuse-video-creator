@@ -23,7 +23,7 @@ It does not grant rights to:
 - user-supplied media processed through the Skill;
 - `docs/images/wechat-qrcode.jpg` as a reusable brand or identity asset;
 - `docs/images/vidmuse-official-logo.svg`, adapted from the official VidMuse website wordmark, as a reusable brand asset;
-- `docs/demos/vidmuse-h3-storyboard.png`, `docs/demos/vidmuse-h3-4k-demo.mp4`, or their derivatives as stock media.
+- `docs/demos/vidmuse-h3-storyboard.png`, `docs/demos/vidmuse-h3-storyboard-annotated.png`, `docs/demos/vidmuse-h3-4k-demo.mp4`, or their derivatives as stock media.
 
 The VidMuse logo is included only to identify, describe, and thank the project's collaboration and sponsorship partner. Its copyright, trademark, and brand rights remain with the VidMuse Team / SandAI. Source: <https://vidmuse.ai/> (retrieved 2026-09-04).
 

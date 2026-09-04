@@ -45,13 +45,13 @@ The Skill checks the CLI, opens the official signup/login flow when needed, veri
 
 ## Real generation case: storyboard → video
 
-This is not a storyboard recreated after the fact. The four-panel image below is the actual reference storyboard submitted to VidMuse + MiniMax H3 for this clip.
+The real generation used two inputs together: a four-panel reference image and the same submission's prompt specifying timing, action, camera movement, and sound. The board below combines those original materials into one readable production sheet; none of its directions were invented afterward.
 
-**1. Actual storyboard used**
+**1. Actual generation storyboard**
 
-![Actual four-panel storyboard submitted to VidMuse and MiniMax H3](docs/demos/vidmuse-h3-storyboard.png)
+![Actual generation storyboard with timing, action, movement, and sound annotations](docs/demos/vidmuse-h3-storyboard-annotated.png)
 
-The panels show: task completed → archive and transfer the data → AI receives the full record → human errors, AI errors, tool failures, and later corrections become one traceable chain.
+[View the original four-panel reference image as submitted](docs/demos/vidmuse-h3-storyboard.png)
 
 **2. Actual generated result**
 

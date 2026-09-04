@@ -2,11 +2,12 @@
 
 This case is presented in the same order as the real production workflow:
 
-1. `vidmuse-h3-storyboard.png` — the actual four-panel reference storyboard submitted for generation;
-2. `../images/vidmuse-h3-demo.gif` — a lightweight moving preview of the result;
-3. `vidmuse-h3-4k-demo.mp4` — the downloadable 4096×3072 delivery file.
+1. `vidmuse-h3-storyboard-annotated.png` — a production sheet combining the real reference frames with the timing, action, camera movement, and sound directions from the actual submission prompt;
+2. `vidmuse-h3-storyboard.png` — the original four-panel reference image exactly as submitted;
+3. `../images/vidmuse-h3-demo.gif` — a lightweight moving preview of the result;
+4. `vidmuse-h3-4k-demo.mp4` — the downloadable 4096×3072 delivery file.
 
-The storyboard was submitted as one reference image. Its four panels defined the timeline: task completed, archive and transfer, AI receives the record, then errors and corrections become one traceable chain. It was not recreated after the video was finished.
+The generation request paired the original reference image with a prompt that mapped each panel to a 1.25-second time range and specified its content, camera motion, and synchronized sound. The annotated sheet is a faithful presentation of those two real inputs, not a claim that the annotations were drawn directly onto the uploaded image.
 
 The video is a real workflow output generated through VidMuse with MiniMax H3 on 2026-08-22 and prepared as a 4096×3072 delivery example. During open-source preparation, both the storyboard and the 4K video were verified to match the preserved production originals byte for byte.
 
