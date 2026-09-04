@@ -21,11 +21,9 @@
 
 ## 合作伙伴：VidMuse
 
-[![VidMuse AI 产品广告平台主视觉](docs/images/vidmuse-product-ads-official.jpg)](https://vidmuse.ai/)
-
 特别感谢 **[VidMuse](https://vidmuse.ai/)** 对本开源 Skill 的合作与赞助支持。VidMuse 提供平台注册、官方 CLI、云端模型与生成服务；本仓库负责把这些能力整理成 Agent 可以直接操作、可恢复、可交付的工作流。
 
-> 上方 Logo 与平台主视觉来自 VidMuse 官方网站，版权与商标归 VidMuse Team / SandAI；仅用于展示合作关系与介绍赞助平台，不属于本仓库 MIT 开源素材。
+> 上方 Logo 来自 VidMuse 官方网站，版权与商标归 VidMuse Team / SandAI；仅用于展示合作关系与介绍赞助平台，不属于本仓库 MIT 开源素材。
 
 ![VidMuse Video Creator workflow](docs/images/vidmuse-creator-flow.png)
 
@@ -42,13 +40,21 @@
 
 仓库不包含 VidMuse 服务器或 CLI 源码，也不会保存你的账号凭证。平台能力由 [VidMuse](https://vidmuse.ai/) 提供，本仓库负责让 Agent 正确、完整地调用它。
 
-## 真实输出演示
+## 真实生成参考案例：故事板 → 成片
 
-下面是本工作流通过 VidMuse + MiniMax H3 生成，并从原始结果制作 4K 交付版的真实片段：
+这不是事后补画的示意图。下面这张四格图，就是生成这段视频时真实提交给 VidMuse + MiniMax H3 的参考故事板。
+
+**1. 实际使用的静态故事板**
+
+![实际提交给 VidMuse + MiniMax H3 的四格故事板](docs/demos/vidmuse-h3-storyboard.png)
+
+四格依次表达：任务完成 → 点击“归档”并移交数据 → AI 接住完整记录 → 串起人的错误、AI 的错误、工具报错与后来修正。
+
+**2. 实际生成结果**
 
 ![VidMuse H3 generated B-roll demo](docs/images/vidmuse-h3-demo.gif)
 
-[下载 4096×3072 的 4K 交付示例](docs/demos/vidmuse-h3-4k-demo.mp4) · [静态预览](docs/images/vidmuse-h3-demo-poster.jpg) · [查看素材说明](docs/demos/README.md)
+[下载 4096×3072 的 4K 交付示例](docs/demos/vidmuse-h3-4k-demo.mp4) · [查看成片静帧](docs/images/vidmuse-h3-demo-poster.jpg) · [查看案例与素材说明](docs/demos/README.md)
 
 > 演示证明工作流曾真实跑通，不代表每个模型、提示词或账号都得到相同画面。模型、价格和套餐会变化，Skill 会在生成前查询实时结果。
 

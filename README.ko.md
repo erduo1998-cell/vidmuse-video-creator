@@ -14,11 +14,9 @@
 
 ## 파트너 및 후원사: VidMuse
 
-[![VidMuse AI 제품 광고 플랫폼 메인 비주얼](docs/images/vidmuse-product-ads-official.jpg)](https://vidmuse.ai/)
-
 이 오픈소스 Skill의 협업과 후원을 지원한 **[VidMuse](https://vidmuse.ai/)** 에 특별히 감사드립니다. VidMuse는 계정, 공식 CLI, 클라우드 모델과 생성 서비스를 제공하고, 이 저장소는 그 기능을 Agent가 직접 실행하고 재개하여 결과물까지 납품할 수 있는 워크플로로 정리합니다.
 
-> 위 Logo와 플랫폼 이미지는 VidMuse 공식 웹사이트에서 가져왔습니다. 저작권과 상표는 VidMuse Team / SandAI에 있으며 이 저장소의 MIT License에 포함되지 않습니다.
+> 위 Logo는 VidMuse 공식 웹사이트에서 가져왔습니다. 저작권과 상표는 VidMuse Team / SandAI에 있으며 이 저장소의 MIT License에 포함되지 않습니다.
 
 ![VidMuse Video Creator workflow](docs/images/vidmuse-creator-flow.png)
 
@@ -41,11 +39,21 @@ $vidmuse-video-creator를 사용해 최초 설정을 완료하세요.
 
 CLI 실행, 유효한 로그인, 요금제 조회, 비어 있지 않은 실시간 이미지 또는 영상 모델 목록이 모두 확인되어야 준비 완료입니다. 인증 정보는 사용자의 CLI 세션에만 저장되며 프로젝트나 Git에 기록되지 않습니다.
 
-## 실제 생성 예시
+## 실제 생성 사례: 스토리보드 → 완성 영상
+
+사후에 다시 만든 예시가 아닙니다. 아래 4컷 이미지는 이 영상을 생성할 때 VidMuse + MiniMax H3에 실제로 제출한 참조 스토리보드입니다.
+
+**1. 실제 사용한 정적 스토리보드**
+
+![VidMuse와 MiniMax H3에 실제로 제출한 4컷 스토리보드](docs/demos/vidmuse-h3-storyboard.png)
+
+4컷은 작업 완료 → ‘归档’ 버튼으로 데이터 전달 → AI가 전체 기록 수신 → 사람·AI·도구의 오류와 이후 수정 내용을 하나의 기록으로 연결하는 흐름입니다.
+
+**2. 실제 생성 결과**
 
 ![VidMuse H3 generated B-roll demo](docs/images/vidmuse-h3-demo.gif)
 
-[4096×3072 납품 예시 다운로드](docs/demos/vidmuse-h3-4k-demo.mp4) · [정적 미리보기](docs/images/vidmuse-h3-demo-poster.jpg) · [미디어 설명](docs/demos/README.md)
+[4096×3072 납품 예시 다운로드](docs/demos/vidmuse-h3-4k-demo.mp4) · [완성 영상 스틸 보기](docs/images/vidmuse-h3-demo-poster.jpg) · [사례 및 미디어 설명](docs/demos/README.md)
 
 ## 브랜드 및 서비스 범위
 

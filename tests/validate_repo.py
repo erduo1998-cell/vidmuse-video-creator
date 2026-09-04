@@ -35,9 +35,9 @@ REQUIRED = [
     SKILL / "scripts" / "validate_h3_request.py",
     ROOT / "docs" / "images" / "vidmuse-creator-flow.png",
     ROOT / "docs" / "images" / "vidmuse-official-logo.svg",
-    ROOT / "docs" / "images" / "vidmuse-product-ads-official.jpg",
     ROOT / "docs" / "images" / "vidmuse-h3-demo.gif",
     ROOT / "docs" / "images" / "wechat-qrcode.jpg",
+    ROOT / "docs" / "demos" / "vidmuse-h3-storyboard.png",
     ROOT / "docs" / "demos" / "vidmuse-h3-4k-demo.mp4",
 ]
 
@@ -94,12 +94,12 @@ def check_readme_links() -> None:
     ]
     for readme in readmes:
         text = readme.read_text(encoding="utf-8")
-        for sponsor_asset in (
-            "docs/images/vidmuse-official-logo.svg",
-            "docs/images/vidmuse-product-ads-official.jpg",
-        ):
-            if sponsor_asset not in text:
-                fail(f"missing sponsor asset in {readme.name}: {sponsor_asset}")
+        sponsor_asset = "docs/images/vidmuse-official-logo.svg"
+        if sponsor_asset not in text:
+            fail(f"missing sponsor asset in {readme.name}: {sponsor_asset}")
+        storyboard_asset = "docs/demos/vidmuse-h3-storyboard.png"
+        if storyboard_asset not in text:
+            fail(f"missing real storyboard in {readme.name}: {storyboard_asset}")
         targets = re.findall(r"!?(?:\[[^]]*\])\(([^)]+)\)", text)
         targets.extend(re.findall(r'<img\s+[^>]*src="([^"]+)"', text))
         for target in targets:
@@ -137,8 +137,8 @@ def check_media() -> None:
     limits = {
         ROOT / "docs" / "images" / "vidmuse-creator-flow.png": 8_000_000,
         ROOT / "docs" / "images" / "vidmuse-official-logo.svg": 100_000,
-        ROOT / "docs" / "images" / "vidmuse-product-ads-official.jpg": 2_000_000,
         ROOT / "docs" / "images" / "vidmuse-h3-demo.gif": 8_000_000,
+        ROOT / "docs" / "demos" / "vidmuse-h3-storyboard.png": 3_000_000,
         ROOT / "docs" / "demos" / "vidmuse-h3-4k-demo.mp4": 50_000_000,
     }
     for path, limit in limits.items():
@@ -149,10 +149,10 @@ def check_media() -> None:
         fail("workflow image is not PNG")
     if not (ROOT / "docs/images/vidmuse-official-logo.svg").read_text(encoding="utf-8").startswith("<svg"):
         fail("VidMuse logo is not SVG")
-    if (ROOT / "docs/images/vidmuse-product-ads-official.jpg").read_bytes()[:3] != b"\xff\xd8\xff":
-        fail("VidMuse product-ad visual is not JPEG")
     if (ROOT / "docs/images/vidmuse-h3-demo.gif").read_bytes()[:3] != b"GIF":
         fail("animated preview is not GIF")
+    if (ROOT / "docs/demos/vidmuse-h3-storyboard.png").read_bytes()[:8] != b"\x89PNG\r\n\x1a\n":
+        fail("storyboard is not PNG")
     if b"ftyp" not in (ROOT / "docs/demos/vidmuse-h3-4k-demo.mp4").read_bytes()[:32]:
         fail("demo is not an MP4")
 

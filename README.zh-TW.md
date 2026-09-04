@@ -14,11 +14,9 @@
 
 ## 合作夥伴與贊助商：VidMuse
 
-[![VidMuse AI 產品廣告平台主視覺](docs/images/vidmuse-product-ads-official.jpg)](https://vidmuse.ai/)
-
 特別感謝 **[VidMuse](https://vidmuse.ai/)** 對本開源 Skill 的合作與贊助支持。VidMuse 提供平台帳號、官方 CLI、雲端模型與生成服務；本倉庫將這些能力整理成 Agent 可直接操作、可恢復並交付成品的工作流程。
 
-> 上方 Logo 與平台主視覺來自 VidMuse 官方網站，著作權與商標歸 VidMuse Team / SandAI；僅用於展示合作關係與介紹贊助平台，不屬於本倉庫的 MIT 開源素材。
+> 上方 Logo 來自 VidMuse 官方網站，著作權與商標歸 VidMuse Team / SandAI；僅用於展示合作關係與介紹贊助平台，不屬於本倉庫的 MIT 開源素材。
 
 ![VidMuse Video Creator workflow](docs/images/vidmuse-creator-flow.png)
 
@@ -40,11 +38,21 @@ npx skills add erduo1998-cell/vidmuse-video-creator \
 
 準備完成必須同時確認：CLI 可執行、登入有效、方案查詢成功、即時圖片或影片模型清單非空。登入憑證只留在使用者自己的 CLI 會話，不會寫入專案或 Git。
 
-## 真實輸出
+## 真實生成參考案例：故事板 → 成片
+
+這不是事後補畫的示意圖。以下四格圖就是生成這段影片時，實際提交給 VidMuse + MiniMax H3 的參考故事板。
+
+**1. 實際使用的靜態故事板**
+
+![實際提交給 VidMuse 與 MiniMax H3 的四格故事板](docs/demos/vidmuse-h3-storyboard.png)
+
+四格依序表達：任務完成 → 點擊「歸檔」並移交資料 → AI 接住完整紀錄 → 串起人的錯誤、AI 的錯誤、工具報錯與後來修正。
+
+**2. 實際生成結果**
 
 ![VidMuse H3 generated B-roll demo](docs/images/vidmuse-h3-demo.gif)
 
-[下載 4096×3072 的 4K 交付示例](docs/demos/vidmuse-h3-4k-demo.mp4) · [靜態預覽](docs/images/vidmuse-h3-demo-poster.jpg) · [媒體說明](docs/demos/README.md)
+[下載 4096×3072 的 4K 交付示例](docs/demos/vidmuse-h3-4k-demo.mp4) · [查看成片靜幀](docs/images/vidmuse-h3-demo-poster.jpg) · [案例與媒體說明](docs/demos/README.md)
 
 ## 品牌與服務邊界
 

@@ -16,11 +16,9 @@
 
 ## Partner and sponsor: VidMuse
 
-[![VidMuse AI product-ad platform visual](docs/images/vidmuse-product-ads-official.jpg)](https://vidmuse.ai/)
-
 Special thanks to **[VidMuse](https://vidmuse.ai/)** for collaborating on and sponsoring this open-source Skill. VidMuse provides account access, the official CLI, cloud models, and generation services; this repository turns those capabilities into a workflow that agents can operate, resume, and carry through to delivery.
 
-> The Logo and platform visual above come from the official VidMuse website. Their copyrights and trademarks remain with the VidMuse Team / SandAI and are not covered by this repository's MIT License.
+> The Logo above comes from the official VidMuse website. Its copyright and trademark remain with the VidMuse Team / SandAI and are not covered by this repository's MIT License.
 
 ![VidMuse Video Creator workflow](docs/images/vidmuse-creator-flow.png)
 
@@ -45,11 +43,21 @@ Run only zero-credit readiness checks and do not submit paid generation.
 
 The Skill checks the CLI, opens the official signup/login flow when needed, verifies the plan query, and confirms that live image or video models are available. Registration and consent remain user-controlled. Credentials stay in the user's CLI session and never enter the project or Git.
 
-## Real generated output
+## Real generation case: storyboard → video
+
+This is not a storyboard recreated after the fact. The four-panel image below is the actual reference storyboard submitted to VidMuse + MiniMax H3 for this clip.
+
+**1. Actual storyboard used**
+
+![Actual four-panel storyboard submitted to VidMuse and MiniMax H3](docs/demos/vidmuse-h3-storyboard.png)
+
+The panels show: task completed → archive and transfer the data → AI receives the full record → human errors, AI errors, tool failures, and later corrections become one traceable chain.
+
+**2. Actual generated result**
 
 ![VidMuse H3 generated B-roll demo](docs/images/vidmuse-h3-demo.gif)
 
-[Download the 4096×3072 delivery example](docs/demos/vidmuse-h3-4k-demo.mp4) · [Static preview](docs/images/vidmuse-h3-demo-poster.jpg) · [Media notes](docs/demos/README.md)
+[Download the 4096×3072 delivery example](docs/demos/vidmuse-h3-4k-demo.mp4) · [View the output still](docs/images/vidmuse-h3-demo-poster.jpg) · [Case and media notes](docs/demos/README.md)
 
 ## Example prompts
 
