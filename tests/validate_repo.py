@@ -42,7 +42,7 @@ REQUIRED = [
     ROOT / "docs" / "demos" / "vidmuse-h3-4k-demo.mp4",
 ]
 
-TEXT_SUFFIXES = {"", ".md", ".py", ".json", ".yaml", ".yml", ".sh"}
+TEXT_SUFFIXES = {"", ".md", ".py", ".json", ".yaml", ".yml", ".sh", ".cmd"}
 FORBIDDEN = {
     "unfinished scaffold": re.compile(r"\[(?:TODO|TBD)(?::|\])|TODO:", re.I),
     "private mac path": re.compile(r"/Users/[A-Za-z0-9._-]+/"),
