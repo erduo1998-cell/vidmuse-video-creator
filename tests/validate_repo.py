@@ -202,7 +202,7 @@ def check_scripts() -> None:
         fail("doctor leaked profile output")
 
     unauth_env = env.copy()
-    unauth_env["VIDMUSE_TEST_UNAUTH"] = "1"
+    unauth_env["PATH"] = f"{ROOT / 'tests/fakes-unauth'}{os.pathsep}{env.get('PATH', '')}"
     unauth = subprocess.run(
         [sys.executable, str(SKILL / "scripts" / "doctor.py")],
         capture_output=True,

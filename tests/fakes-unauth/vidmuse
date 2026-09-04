@@ -1,0 +1,15 @@
+#!/bin/sh
+
+case "$1 $2" in
+  "--version ")
+    printf '%s\n' 'vTEST_ONLY'
+    ;;
+  "profile get")
+    printf '%s\n' 'TEST_ONLY_AUTH_REQUIRED' >&2
+    exit 3
+    ;;
+  *)
+    printf '%s\n' 'unsupported test command' >&2
+    exit 2
+    ;;
+esac
