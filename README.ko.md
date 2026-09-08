@@ -6,15 +6,17 @@
 
 [简体中文](README.md) · [English](README.en.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md)
 
-<a href="https://vidmuse.ai/"><img src="docs/images/vidmuse-official-logo.svg" alt="VidMuse" width="240" /></a>
+<a href="https://go.vidmuse.ai/erduo"><img src="docs/images/vidmuse-official-logo.svg" alt="VidMuse" width="240" /></a>
 
-[VidMuse 가입 / 로그인](https://vidmuse.ai/login) · [공식 CLI](https://vidmuse.ai/en/cli)
+[VidMuse 방문 — Erduo 파트너 링크](https://go.vidmuse.ai/erduo)
 
 </div>
 
+파트너 링크로 접속한 뒤 사이트 안내에 따라 가입·로그인, 공식 CLI 설치 또는 요금제 확인을 진행하세요. VidMuse는 이 링크로 이번 협업을 통한 방문을 집계합니다.
+
 ## 파트너 및 후원사: VidMuse
 
-이 오픈소스 Skill의 협업과 후원을 지원한 **[VidMuse](https://vidmuse.ai/)** 에 특별히 감사드립니다. VidMuse는 계정, 공식 CLI, 클라우드 모델과 생성 서비스를 제공하고, 이 저장소는 그 기능을 Agent가 직접 실행하고 재개하여 결과물까지 납품할 수 있는 워크플로로 정리합니다.
+이 오픈소스 Skill의 협업과 후원을 지원한 **[VidMuse](https://go.vidmuse.ai/erduo)** 에 특별히 감사드립니다. VidMuse는 계정, 공식 CLI, 클라우드 모델과 생성 서비스를 제공하고, 이 저장소는 그 기능을 Agent가 직접 실행하고 재개하여 결과물까지 납품할 수 있는 워크플로로 정리합니다.
 
 > 위 Logo는 VidMuse 공식 웹사이트에서 가져왔습니다. 저작권과 상표는 VidMuse Team / SandAI에 있으며 이 저장소의 MIT License에 포함되지 않습니다.
 

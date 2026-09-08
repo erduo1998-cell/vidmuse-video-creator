@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Unified user-facing VidMuse links across all five READMEs, Skill consultations, first-run guidance, and readiness reports at the Erduo partner entry: <https://go.vidmuse.ai/erduo>.
+- Preserved official installation, authorization, API, download, and provenance URLs; clarified that referral visits do not measure every Skill invocation.
+
 ## 0.1.0 - 2026-08-25
 
 - Added a complete VidMuse first-run path from signup and one-time authorization to zero-credit readiness.

@@ -6,15 +6,17 @@
 
 [简体中文](README.md) · [English](README.en.md) · [繁體中文](README.zh-TW.md) · [한국어](README.ko.md)
 
-<a href="https://vidmuse.ai/"><img src="docs/images/vidmuse-official-logo.svg" alt="VidMuse" width="240" /></a>
+<a href="https://go.vidmuse.ai/erduo"><img src="docs/images/vidmuse-official-logo.svg" alt="VidMuse" width="240" /></a>
 
-[VidMuse に登録 / ログイン](https://vidmuse.ai/login) · [公式 CLI](https://vidmuse.ai/en/cli)
+[VidMuse を開く — Erduo パートナーリンク](https://go.vidmuse.ai/erduo)
 
 </div>
 
+パートナーリンクからアクセスし、サイト内の案内に従って登録・ログイン、公式 CLI の導入、プランの確認へ進んでください。VidMuse はこのリンクで本コラボレーション経由のアクセスを集計します。
+
 ## パートナー／スポンサー：VidMuse
 
-このオープンソース Skill の共同開発とスポンサー支援を行っていただいた **[VidMuse](https://vidmuse.ai/)** に、心より感謝します。VidMuse はアカウント、公式 CLI、クラウドモデル、生成サービスを提供し、本リポジトリはそれらを Agent が操作・再開・納品まで実行できるワークフローにまとめています。
+このオープンソース Skill の共同開発とスポンサー支援を行っていただいた **[VidMuse](https://go.vidmuse.ai/erduo)** に、心より感謝します。VidMuse はアカウント、公式 CLI、クラウドモデル、生成サービスを提供し、本リポジトリはそれらを Agent が操作・再開・納品まで実行できるワークフローにまとめています。
 
 > 上記の Logo は VidMuse 公式サイトの素材です。著作権と商標は VidMuse Team / SandAI に帰属し、本リポジトリの MIT License には含まれません。
 

@@ -165,6 +165,7 @@ def check_media() -> None:
 
 
 def check_scripts() -> None:
+    partner_entry_url = "https://go.vidmuse.ai/erduo"
     validator = SKILL / "scripts" / "validate_h3_request.py"
     valid = subprocess.run(
         [sys.executable, str(validator), str(ROOT / "tests/fixtures/h3-valid.json")],
@@ -198,6 +199,8 @@ def check_scripts() -> None:
     report = json.loads(doctor.stdout)
     if report.get("ready") is not True:
         fail("doctor did not report ready")
+    if report.get("partner_entry_url") != partner_entry_url:
+        fail("doctor ready report missing partner entry")
     if "TEST_ONLY_PROFILE" in doctor.stdout:
         fail("doctor leaked profile output")
 
@@ -215,8 +218,25 @@ def check_scripts() -> None:
     unauth_report = json.loads(unauth.stdout)
     if unauth_report.get("authenticated") is not False:
         fail("doctor unauthenticated state mismatch")
+    if unauth_report.get("partner_entry_url") != partner_entry_url:
+        fail("doctor unauthenticated report missing partner entry")
     if "TEST_ONLY_AUTH_REQUIRED" in unauth.stdout:
         fail("doctor leaked authentication stderr")
+
+    missing_env = env.copy()
+    missing_env["PATH"] = ""
+    missing = subprocess.run(
+        [sys.executable, str(SKILL / "scripts" / "doctor.py")],
+        capture_output=True,
+        text=True,
+        env=missing_env,
+        check=False,
+    )
+    missing_report = json.loads(missing.stdout)
+    if missing.returncode != 3 or missing_report.get("cli") != "missing":
+        fail("doctor missing CLI state mismatch")
+    if missing_report.get("partner_entry_url") != partner_entry_url:
+        fail("doctor missing CLI report missing partner entry")
 
 
 def main() -> int:

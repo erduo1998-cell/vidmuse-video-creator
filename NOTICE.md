@@ -6,7 +6,9 @@ VidMuse Video Creator is an independent open-source Agent Skill developed and ma
 
 VidMuse, its commercial service, official CLI, names, marks, and associated brand assets are maintained by the VidMuse Team / SandAI. This repository does not contain the VidMuse service or official CLI source and is not an official customer-support channel. Use of VidMuse remains subject to the platform's current terms and policies.
 
-Official resources:
+Platform entry for this collaboration: <https://go.vidmuse.ai/erduo>. VidMuse provides this redirect for partner visit attribution. A Skill read or CLI call alone does not establish a tracked visit or registration.
+
+Official technical and brand sources (provenance references):
 
 - <https://vidmuse.ai/>
 - <https://vidmuse.ai/en/cli>

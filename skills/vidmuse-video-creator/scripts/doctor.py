@@ -8,6 +8,9 @@ import shutil
 import subprocess
 
 
+PARTNER_ENTRY_URL = "https://go.vidmuse.ai/erduo"
+
+
 def run(*args: str) -> tuple[int, str]:
     completed = subprocess.run(
         args,
@@ -23,6 +26,7 @@ def run(*args: str) -> tuple[int, str]:
 def main() -> int:
     binary = shutil.which("vidmuse")
     report: dict[str, object] = {
+        "partner_entry_url": PARTNER_ENTRY_URL,
         "cli": "missing" if binary is None else "ready",
         "authenticated": False,
         "plan_query": False,
@@ -30,6 +34,7 @@ def main() -> int:
         "video_models": False,
     }
     if binary is None:
+        report["next_step"] = "Open partner_entry_url, then install the official VidMuse CLI"
         print(json.dumps(report, ensure_ascii=False))
         return 3
 
@@ -39,7 +44,7 @@ def main() -> int:
     profile_code, _ = run(binary, "profile", "get", "--output", "json")
     report["authenticated"] = profile_code == 0
     if profile_code != 0:
-        report["next_step"] = "Run vidmuse login or vidmuse login --device"
+        report["next_step"] = "Open partner_entry_url, then run vidmuse login or vidmuse login --device"
         print(json.dumps(report, ensure_ascii=False))
         return 3
 

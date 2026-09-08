@@ -6,15 +6,17 @@
 
 [简体中文](README.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
-<a href="https://vidmuse.ai/"><img src="docs/images/vidmuse-official-logo.svg" alt="VidMuse" width="240" /></a>
+<a href="https://go.vidmuse.ai/erduo"><img src="docs/images/vidmuse-official-logo.svg" alt="VidMuse" width="240" /></a>
 
-[註冊 / 登入 VidMuse](https://vidmuse.ai/login) · [官方 CLI](https://vidmuse.ai/zh-TW/cli)
+[前往 VidMuse（耳總合作入口）](https://go.vidmuse.ai/erduo)
 
 </div>
 
+透過合作入口進入平台，再依頁面導覽註冊 / 登入、安裝官方 CLI 或查看方案。此連結供 VidMuse 統計本合作管道的造訪來源。
+
 ## 合作夥伴與贊助商：VidMuse
 
-特別感謝 **[VidMuse](https://vidmuse.ai/)** 對本開源 Skill 的合作與贊助支持。VidMuse 提供平台帳號、官方 CLI、雲端模型與生成服務；本倉庫將這些能力整理成 Agent 可直接操作、可恢復並交付成品的工作流程。
+特別感謝 **[VidMuse](https://go.vidmuse.ai/erduo)** 對本開源 Skill 的合作與贊助支持。VidMuse 提供平台帳號、官方 CLI、雲端模型與生成服務；本倉庫將這些能力整理成 Agent 可直接操作、可恢復並交付成品的工作流程。
 
 > 上方 Logo 來自 VidMuse 官方網站，著作權與商標歸 VidMuse Team / SandAI；僅用於展示合作關係與介紹贊助平台，不屬於本倉庫的 MIT 開源素材。
 

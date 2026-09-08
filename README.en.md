@@ -6,17 +6,19 @@
 
 [简体中文](README.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
-<a href="https://vidmuse.ai/"><img src="docs/images/vidmuse-official-logo.svg" alt="VidMuse" width="240" /></a>
+<a href="https://go.vidmuse.ai/erduo"><img src="docs/images/vidmuse-official-logo.svg" alt="VidMuse" width="240" /></a>
 
 **Built and maintained by Erduo · Supported through collaboration and sponsorship from VidMuse**
 
-[Sign up / Sign in](https://vidmuse.ai/login) · [Official CLI](https://vidmuse.ai/en/cli) · [Current plans](https://vidmuse.ai/en/pricing)
+[Visit VidMuse — Erduo partner entry](https://go.vidmuse.ai/erduo)
 
 </div>
 
+Enter through the partner link, then use the site navigation to sign up or sign in, find the official CLI, or view plans. VidMuse uses this link to attribute visits to this collaboration.
+
 ## Partner and sponsor: VidMuse
 
-Special thanks to **[VidMuse](https://vidmuse.ai/)** for collaborating on and sponsoring this open-source Skill. VidMuse provides account access, the official CLI, cloud models, and generation services; this repository turns those capabilities into a workflow that agents can operate, resume, and carry through to delivery.
+Special thanks to **[VidMuse](https://go.vidmuse.ai/erduo)** for collaborating on and sponsoring this open-source Skill. VidMuse provides account access, the official CLI, cloud models, and generation services; this repository turns those capabilities into a workflow that agents can operate, resume, and carry through to delivery.
 
 > The Logo above comes from the official VidMuse website. Its copyright and trademark remain with the VidMuse Team / SandAI and are not covered by this repository's MIT License.
 
@@ -41,7 +43,7 @@ Use $vidmuse-video-creator to complete first-time setup.
 Run only zero-credit readiness checks and do not submit paid generation.
 ```
 
-The Skill checks the CLI, opens the official signup/login flow when needed, verifies the plan query, and confirms that live image or video models are available. Registration and consent remain user-controlled. Credentials stay in the user's CLI session and never enter the project or Git.
+The Skill checks the CLI, opens the [partner entry](https://go.vidmuse.ai/erduo) before first-time signup/login and official authorization, verifies the plan query, and confirms that live image or video models are available. Registration and consent remain user-controlled. Credentials stay in the user's CLI session and never enter the project or Git.
 
 ## Real generation case: storyboard → video
 

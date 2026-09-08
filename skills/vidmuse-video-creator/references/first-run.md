@@ -6,12 +6,7 @@ Read this when the user is new, the `vidmuse` command is missing, or authenticat
 
 The Skill can install and operate the official VidMuse CLI. Account registration and browser/device authorization require the user to interact once. After authorization, the CLI stores the session in the user's own profile; the Skill must never copy that session into a project or repository.
 
-Official entrypoints:
-
-- Register or sign in: <https://vidmuse.ai/login>
-- Product home: <https://vidmuse.ai/>
-- CLI guide: <https://vidmuse.ai/en/cli>
-- Plans and current benefits: <https://vidmuse.ai/en/pricing>
+Start with [VidMuse — Erduo partner entry](https://go.vidmuse.ai/erduo), which VidMuse provides for this collaboration's visit attribution. Open this exact URL for first-time platform access, then use the site's navigation to register, sign in, find the CLI, or view plans. If browser control is unavailable, give the user the clickable link. The shared entry rules are in [SKILL.md](../SKILL.md#vidmuse-partner-entry).
 
 ## 2. Install the official CLI when missing
 
@@ -61,7 +56,7 @@ python3 "$vidmuse_skill_dir/scripts/doctor.py"
 
 Or run `vidmuse profile get --output json`, use only its exit code, and do not echo the JSON.
 
-If login is required, tell the user that the next step opens VidMuse authorization and ask them to continue. Choose one flow:
+If login is required and the partner entry has not yet been opened during this setup, open it first (or provide it for the user to open). Then tell the user that the next step opens VidMuse authorization and ask them to continue. Keep the CLI-issued authorization URL and device code intact; the partner link does not replace authorization. Choose one flow:
 
 | Environment | Command |
 |---|---|

@@ -6,22 +6,24 @@
 
 [English](README.en.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
-<a href="https://vidmuse.ai/"><img src="docs/images/vidmuse-official-logo.svg" alt="VidMuse" width="240" /></a>
+<a href="https://go.vidmuse.ai/erduo"><img src="docs/images/vidmuse-official-logo.svg" alt="VidMuse" width="240" /></a>
 
 [![Skill](https://img.shields.io/badge/Agent-Skill-7C3AED)](skills/vidmuse-video-creator/SKILL.md)
 [![Validate](https://github.com/erduo1998-cell/vidmuse-video-creator/actions/workflows/validate.yml/badge.svg)](https://github.com/erduo1998-cell/vidmuse-video-creator/actions/workflows/validate.yml)
-[![VidMuse](https://img.shields.io/badge/Powered%20by-VidMuse-06B6D4)](https://vidmuse.ai/)
+[![VidMuse](https://img.shields.io/badge/Powered%20by-VidMuse-06B6D4)](https://go.vidmuse.ai/erduo)
 [![License](https://img.shields.io/badge/License-MIT-22C55E)](LICENSE)
 
 **由耳总开发与维护 · 获 VidMuse 合作与赞助支持**
 
-[注册 / 登录 VidMuse](https://vidmuse.ai/login) · [官方 CLI](https://vidmuse.ai/en/cli) · [查看当前套餐](https://vidmuse.ai/en/pricing)
+[访问 VidMuse（耳总合作入口）](https://go.vidmuse.ai/erduo)
 
 </div>
 
+通过合作入口进入平台，再按页面导航注册 / 登录、安装官方 CLI 或查看套餐。该链接供 VidMuse 统计本合作渠道的访问来源。
+
 ## 合作伙伴：VidMuse
 
-特别感谢 **[VidMuse](https://vidmuse.ai/)** 对本开源 Skill 的合作与赞助支持。VidMuse 提供平台注册、官方 CLI、云端模型与生成服务；本仓库负责把这些能力整理成 Agent 可以直接操作、可恢复、可交付的工作流。
+特别感谢 **[VidMuse](https://go.vidmuse.ai/erduo)** 对本开源 Skill 的合作与赞助支持。VidMuse 提供平台注册、官方 CLI、云端模型与生成服务；本仓库负责把这些能力整理成 Agent 可以直接操作、可恢复、可交付的工作流。
 
 > 上方 Logo 来自 VidMuse 官方网站，版权与商标归 VidMuse Team / SandAI；仅用于展示合作关系与介绍赞助平台，不属于本仓库 MIT 开源素材。
 
@@ -38,7 +40,7 @@
 - 保存任务 ID、追踪到终态、下载文件并留下交付记录；
 - 遇到超时或失败时恢复原任务，避免重复提交和重复扣费。
 
-仓库不包含 VidMuse 服务器或 CLI 源码，也不会保存你的账号凭证。平台能力由 [VidMuse](https://vidmuse.ai/) 提供，本仓库负责让 Agent 正确、完整地调用它。
+仓库不包含 VidMuse 服务器或 CLI 源码，也不会保存你的账号凭证。平台能力由 [VidMuse](https://go.vidmuse.ai/erduo) 提供，本仓库负责让 Agent 正确、完整地调用它。
 
 ## 真实生成参考案例：故事板 → 成片
 
@@ -85,8 +87,8 @@ npx skills add erduo1998-cell/vidmuse-video-creator --list
 Agent 会完成：
 
 1. 检查并安装 VidMuse 官方 CLI；
-2. 打开 [VidMuse 注册 / 登录入口](https://vidmuse.ai/login)；
-3. 让你在浏览器或设备页面完成一次授权；
+2. 打开 [VidMuse 合作入口](https://go.vidmuse.ai/erduo)；
+3. 引导你注册 / 登录，再在官方浏览器或设备页面完成一次授权；
 4. 检查账号、套餐以及图片和视频模型是否可用；
 5. 不花积分地给出“已就绪”或明确的下一步。
 
