@@ -6,6 +6,8 @@
 
 [简体中文](README.md) · [English](README.en.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md)
 
+[멤버십 및 도움](#membership-help)
+
 <a href="https://go.vidmuse.ai/erduo"><img src="docs/images/vidmuse-official-logo.svg" alt="VidMuse" width="240" /></a>
 
 [VidMuse 방문 — Erduo 파트너 링크](https://go.vidmuse.ai/erduo)
@@ -56,6 +58,18 @@ CLI 실행, 유효한 로그인, 요금제 조회, 비어 있지 않은 실시�
 ![VidMuse H3 generated B-roll demo](docs/images/vidmuse-h3-demo.gif)
 
 [4096×3072 납품 예시 다운로드](docs/demos/vidmuse-h3-4k-demo.mp4) · [완성 영상 스틸 보기](docs/images/vidmuse-h3-demo-poster.jpg) · [사례 및 미디어 설명](docs/demos/README.md)
+
+<a id="membership-help"></a>
+
+## 멤버십 및 도움
+
+프로젝트 자료, 영상 사례 또는 제작자의 텍스트 답변이 필요하신가요? Erduo의 「无限涌动 SURGE」는 영구 회원 자격의 Seed 멤버십을 제공합니다. 프로젝트 자료, 영상 사례, 지속적인 업데이트와 커뮤니티 텍스트 Q&A를 이용하고, 본인의 AI를 접근 권한 범위 내에서 회원 자료실에 연결할 수 있습니다. 제공 자료, 혜택과 가격은 웹사이트에서 확인하세요.
+
+[멤버십 혜택 보기](https://erduo.art/site/join) · [가입 / 로그인 후 구매](https://login.erduo.art/purchase/checkout) · [맞춤 서비스 상담](https://erduo.art/site/business)
+
+회원 텍스트 Q&A에는 원격 설치, 기술 문제 해결 대행, 일대일 제작 대행이 포함되지 않습니다. 영상 제작, 배포 환경 구축, 교육 및 별도 라이선스는 범위와 견적을 따로 협의합니다. 멤버십은 이 저장소의 라이선스를 대체하거나 상업적 이용 권한을 자동으로 부여하지 않습니다.
+
+SURGE 멤버십은 VidMuse 계정, 요금제, 생성 크레딧 또는 공식 지원을 대체하지 않습니다. 플랫폼 문제는 VidMuse 공식 지원을 이용하세요. 이 프로젝트는 멤버십 구매 없이 기존 MIT 라이선스로 사용할 수 있습니다. 아래 WeChat QR 코드로 제작자에게 문의할 수도 있습니다.
 
 ## 브랜드 및 서비스 범위
 

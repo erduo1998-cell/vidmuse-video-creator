@@ -6,6 +6,8 @@
 
 [简体中文](README.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
+[Membership & help](#membership-help)
+
 <a href="https://go.vidmuse.ai/erduo"><img src="docs/images/vidmuse-official-logo.svg" alt="VidMuse" width="240" /></a>
 
 **Built and maintained by Erduo · Supported through collaboration and sponsorship from VidMuse**
@@ -88,6 +90,18 @@ Readiness requires a working CLI, valid login, successful plan query, and a non-
 ## Brand and service boundary
 
 The VidMuse commercial service, official CLI, names, and trademarks are maintained by the VidMuse Team / SandAI. This repository does not contain the VidMuse service or CLI source and is not an official support channel.
+
+<a id="membership-help"></a>
+
+## Membership & help
+
+Want project resources, video examples, or written Q&A with the author? Erduo’s SURGE (无限涌动) offers Seed Membership with lifetime membership status, project resources, video examples, ongoing updates, and community text Q&A. You can also connect your own AI to the member library within your access rights. Available resources, benefits, and prices are listed on the website.
+
+[Explore membership](https://erduo.art/site/join) · [Sign up / sign in and purchase](https://login.erduo.art/purchase/checkout) · [Discuss custom services](https://erduo.art/site/business)
+
+Member text Q&A excludes remote installation, hands-on engineering troubleshooting, and one-to-one production work. Video production, deployment, training, and special licensing require a separate scope and quote. Membership does not replace this repository’s license or automatically grant commercial rights.
+
+SURGE membership does not replace a VidMuse account, plan, generation credits, or official support; platform issues remain with VidMuse support. This project remains available under MIT without a membership purchase. You can also contact Erduo through the WeChat QR code below.
 
 ## Contact
 

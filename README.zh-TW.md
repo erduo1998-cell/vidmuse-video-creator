@@ -6,6 +6,8 @@
 
 [简体中文](README.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
+[會員與協助](#membership-help)
+
 <a href="https://go.vidmuse.ai/erduo"><img src="docs/images/vidmuse-official-logo.svg" alt="VidMuse" width="240" /></a>
 
 [前往 VidMuse（耳總合作入口）](https://go.vidmuse.ai/erduo)
@@ -55,6 +57,18 @@ npx skills add erduo1998-cell/vidmuse-video-creator \
 ![VidMuse H3 generated B-roll demo](docs/images/vidmuse-h3-demo.gif)
 
 [下載 4096×3072 的 4K 交付示例](docs/demos/vidmuse-h3-4k-demo.mp4) · [查看成片靜幀](docs/images/vidmuse-h3-demo-poster.jpg) · [案例與媒體說明](docs/demos/README.md)
+
+<a id="membership-help"></a>
+
+## 會員與協助
+
+需要專案資料、影片案例或作者文字答疑？作者耳朵的「无限涌动 SURGE」提供永久種子會員，包含專案資料、影片案例、持續更新與社群文字答疑，也支援將自己的 AI 接入有權使用的會員資料庫。具體資料、權益與價格以網站為準。
+
+[了解會員權益](https://erduo.art/site/join) · [註冊／登入並購買](https://login.erduo.art/purchase/checkout) · [諮詢客製服務](https://erduo.art/site/business)
+
+會員文字答疑不包含遠端安裝、工程問題代查或一對一代做；影片製作、部署、培訓及專項授權需另行溝通範圍與報價。會員資格不取代本倉庫授權條款，也不自動授予商業使用權。
+
+SURGE 會員不取代 VidMuse 帳號、方案、生成點數或官方售後；平台問題仍由 VidMuse 官方支援處理。本專案繼續依 MIT 授權條款使用，無需購買會員。也可透過下方微信 QR Code 諮詢作者。
 
 ## 品牌與服務邊界
 

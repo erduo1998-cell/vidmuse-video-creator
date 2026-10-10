@@ -6,6 +6,8 @@
 
 [English](README.en.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
+[会员与帮助](#membership-help)
+
 <a href="https://go.vidmuse.ai/erduo"><img src="docs/images/vidmuse-official-logo.svg" alt="VidMuse" width="240" /></a>
 
 [![Skill](https://img.shields.io/badge/Agent-Skill-7C3AED)](skills/vidmuse-video-creator/SKILL.md)
@@ -148,6 +150,18 @@ Agent 会完成：
 ## 品牌与服务边界
 
 VidMuse 商业服务、官方 CLI、品牌和商标由 VidMuse Team / SandAI 维护。本仓库不是 VidMuse 官方 CLI 源码仓库，也不冒充 VidMuse 官方支持渠道。
+
+<a id="membership-help"></a>
+
+## 会员与帮助
+
+需要项目资料、视频案例或作者文字答疑？作者耳朵的「无限涌动 SURGE」提供永久种子会员，包含项目资料、视频案例、持续更新与社群文字答疑，也支持将自己的 AI 接入有权使用的会员资料库。具体资料、权益和价格以网站为准。
+
+[了解会员权益](https://erduo.art/site/join) · [注册／登录并购买](https://login.erduo.art/purchase/checkout) · [咨询定制服务](https://erduo.art/site/business)
+
+会员文字答疑不包含远程安装、工程代排查或一对一代做；视频包装、部署、培训及专项授权需另行沟通范围与报价。会员资格不替代本仓库许可证，也不自动授予商业使用权。
+
+SURGE 会员不替代 VidMuse 账号、套餐、生成积分或官方售后；平台问题仍由 VidMuse 官方支持处理。本项目继续按 MIT 许可证使用，无需购买会员。也可通过下方微信二维码咨询作者。
 
 ## 联系耳总
 
